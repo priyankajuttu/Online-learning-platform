@@ -1,4 +1,5 @@
-# Online Learning Platform
+# EduPeak – Online Learning Platform
+### CBIT WP Assignment | IV Sem CSE4 | Mar 2026 | Subject: Web Programming
 
 A fully responsive static website for an online course platform built with pure HTML, CSS, and JavaScript — with XML/XSD data files.
 
@@ -7,6 +8,7 @@ A fully responsive static website for an online course platform built with pure 
 ## 🗂️ Project Structure
 
 ```
+edupeak/
 ├── index.html          # Home page
 ├── courses.html        # Courses listing with filter
 ├── course-details.html # Course detail page
@@ -30,6 +32,7 @@ A fully responsive static website for an online course platform built with pure 
 | Register/Login | `register.html` | Tabbed form, full JS validation, password strength meter |
 | Contact | `contact.html` | Contact info cards, inquiry form with JS validation |
 
+---
 
 ## ✅ Assignment Coverage
 
@@ -52,26 +55,72 @@ A fully responsive static website for an online course platform built with pure 
 - [x] `courses.xml` — stores 6 courses with full metadata
 - [x] `courses.xsd` — validates XML with types, enums, patterns, constraints
 
+---
+
+## 🚀 GitHub Pages Deployment
+
+### Step 1 – Create Repository
+1. Go to [github.com](https://github.com) and sign in
+2. Click **New Repository**
+3. Name it `edupeak` (or any name)
+4. Set to **Public**
+5. Click **Create Repository**
+
+### Step 2 – Upload Files
+```bash
+# Option A: Git CLI
+git init
+git add .
+git commit -m "Initial commit: EduPeak WP Assignment"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/edupeak.git
+git push -u origin main
+
+# Option B: GitHub Web Upload
+# Drag and drop all files on the repository page
+```
+
+### Step 3 – Enable GitHub Pages
+1. Go to your repo → **Settings**
+2. Scroll to **Pages** section (left sidebar)
+3. Under **Source** select: `Deploy from a branch`
+4. Select branch: `main` | folder: `/ (root)`
+5. Click **Save**
+
+### Step 4 – Access Your Site
+Your site will be live at:
+```
+https://YOUR_USERNAME.github.io/edupeak/
+```
+*(Takes 1–5 minutes to deploy)*
+
+---
 
 ## 🛠️ Tech Stack
 
 | Technology | Usage |
 |------------|-------|
 | HTML5 | Semantic page structure |
-| CSS3 | Styling, Grid|
-| JavaScript | Form validation, tab switching, accordion |
+| CSS3 | Styling, Grid, Flexbox, Animations |
+| JavaScript (Vanilla) | Form validation, tab switching, accordion |
+| Google Fonts | Syne + DM Sans typography |
 | XML | Course data storage |
 | XSD | XML schema validation |
 
+---
+
 ## 📚 Key Features
 
--  **Polished UI** — CSS variables, gradient cards
--  **Responsive** — Works on all screen sizes using CSS Grid
--  **Form Validation** — Full JS validation with real-time error messages
--  **Password Strength** — Visual strength meter on registration
--  **Accordion** — Collapsible curriculum sections
--  **XML + XSD** — Structured data with schema validation
+- 🎨 **Polished UI** — CSS variables, glassmorphism navbar, gradient cards
+- 📱 **Responsive** — Works on all screen sizes using CSS Grid
+- ✅ **Form Validation** — Full JS validation with real-time error messages
+- 🔐 **Password Strength** — Visual strength meter on registration
+- 🔢 **Course Filter** — Category-based JS filtering on courses page
+- ⏱️ **Countdown Timer** — Live discount timer on course details
+- 📋 **Accordion** — Collapsible curriculum sections
+- 🏗️ **XML + XSD** — Structured data with schema validation
 
+---
 
 *Submitted by: [Your Name] | Roll No: [Your Roll No] | Section: CSE4 – IV Semester*  
 *CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY (AUTONOMOUS), Hyderabad – 500075*

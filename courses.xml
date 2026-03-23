@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<courses>
+    <course>
+        <title>Web Programming</title>
+        <instructor>Priya</instructor>
+        <price>499</price>
+    </course>
+</courses>
